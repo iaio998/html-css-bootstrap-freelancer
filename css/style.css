@@ -1,5 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* NAVBAR */
+#navbar {
+  padding: 15px 0;
 }
+.hero-img {
+  width: 50%;
+}
+
+.hero {
+  padding-top: 35px;
+}
+.hero > * {
+  padding: 10px 0;
+}
+
+/* PORTFOLIO */
+#portfolio > * {
+  padding: 10px 0;
+}
+
+/* IMAGES */
