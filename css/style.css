@@ -5,7 +5,6 @@
 .hero-img {
   width: 50%;
 }
-
 .hero {
   padding-top: 35px;
 }
@@ -26,3 +25,14 @@
 }
 
 /* CONTACT ME */
+
+/* FOOTER TOP  */
+.weblink {
+  text-align: center;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  border-radius: 50%;
+  line-height: 40px;
+}
