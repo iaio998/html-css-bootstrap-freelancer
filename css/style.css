@@ -1,3 +1,22 @@
+/* GENERAL */
+:root {
+  --color-bg-nav-footerbot: #2c3e50;
+  --color-bg-hero: #1abc9c;
+  --color-bg-footertop: #3a546d;
+}
+.nav-bg {
+  background-color: var(--color-bg-nav-footerbot);
+}
+.hero-bg {
+  background-color: var(--color-bg-hero);
+}
+.footertop-bg {
+  background-color: var(--color-bg-footertop);
+}
+.footerbot-bg {
+  background-color: var(--color-bg-nav-footerbot);
+}
+
 /* NAVBAR */
 #navbar {
   padding: 15px 0;
@@ -29,10 +48,13 @@
 /* FOOTER TOP  */
 .weblink {
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 40px;
   height: 40px;
   margin: 0 10px;
   border-radius: 50%;
   line-height: 40px;
+}
+.weblink a {
+  color: white;
 }
