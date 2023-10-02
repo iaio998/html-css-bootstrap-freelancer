@@ -44,6 +44,9 @@ img {
 }
 
 /* NAVBAR */
+.navbar-toggler-icon {
+  color: white;
+}
 .navbar a {
   color: white;
 }
@@ -63,20 +66,21 @@ img {
 }
 
 /* IMAGES */
-/* .img-contain:hover:after {
-  content: "x";
-  display: flex;
-  align-items: center;
-  align-content: center;
-  background-color: rgba(0, 128, 0, 0.63);
-  color: white;
+.my-img-container:hover:after {
+  content: "+";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  font-size: 4em;
-} */
+  background-color: rgba(0, 128, 0, 0.384);
+  color: white;
+  font-size: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
 
 /* ABOUT */
 #about > * {
