@@ -20,6 +20,7 @@ img {
   width: 100%;
   display: block;
 }
+
 /* STAR */
 #whitebar:after,
 #whitebar:before {
@@ -43,11 +44,11 @@ img {
 }
 
 /* NAVBAR */
-#navbar {
-  padding: 15px 0;
+.navbar a {
+  color: white;
 }
 .hero-img {
-  width: 30%;
+  max-width: 250px;
 }
 .hero {
   padding-top: 35px;
@@ -83,7 +84,15 @@ img {
 }
 
 /* CONTACT ME */
-
+#contact-me .btn.btn-primary {
+  background-color: var(--color-bg-hero);
+  border: 0;
+}
+form .form-control {
+  border: 0;
+  border-bottom: 1px solid lightgray;
+  border-radius: 0;
+}
 /* FOOTER TOP  */
 #weblink {
   width: 50%;
