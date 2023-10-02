@@ -16,19 +16,30 @@
 .footerbot-bg {
   background-color: var(--color-bg-nav-footerbot);
 }
-
+img {
+  width: 100%;
+  display: block;
+}
 /* STAR */
-#whitebar-blackbar {
-  position: relative;
+#whitebar:after,
+#whitebar:before {
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: white;
+  height: 4px;
+  margin: 0 10px;
+  border-radius: 5px;
 }
-#whitebar-blackbar i {
-  font-size: 2em;
-}
-.white-bar {
-  height: 1px;
-  border: 2px solid white;
-  width: 70px;
-  margin: 0 5px;
+#blackbar:after,
+#blackbar:before {
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: black;
+  height: 4px;
+  margin: 0 10px;
+  border-radius: 5px;
 }
 
 /* NAVBAR */
@@ -51,6 +62,20 @@
 }
 
 /* IMAGES */
+/* .img-contain:hover:after {
+  content: "x";
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-color: rgba(0, 128, 0, 0.63);
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 4em;
+} */
 
 /* ABOUT */
 #about > * {
