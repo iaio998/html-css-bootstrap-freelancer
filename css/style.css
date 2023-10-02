@@ -17,12 +17,26 @@
   background-color: var(--color-bg-nav-footerbot);
 }
 
+/* STAR */
+#whitebar-blackbar {
+  position: relative;
+}
+#whitebar-blackbar i {
+  font-size: 2em;
+}
+.white-bar {
+  height: 1px;
+  border: 2px solid white;
+  width: 70px;
+  margin: 0 5px;
+}
+
 /* NAVBAR */
 #navbar {
   padding: 15px 0;
 }
 .hero-img {
-  width: 50%;
+  width: 30%;
 }
 .hero {
   padding-top: 35px;
@@ -46,12 +60,16 @@
 /* CONTACT ME */
 
 /* FOOTER TOP  */
+#weblink {
+  width: 50%;
+  margin: 0 auto;
+}
 .weblink {
   text-align: center;
   border: 1px solid white;
   width: 40px;
   height: 40px;
-  margin: 0 10px;
+  /* margin: 0 10px; */
   border-radius: 50%;
   line-height: 40px;
 }
